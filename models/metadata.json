@@ -1,0 +1,31 @@
+{
+  "labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "model_display_names": {
+    "tfidf_logistic_regression": "Logistic Regression (TF-IDF)",
+    "tfidf_svm": "SVM (TF-IDF)",
+    "embedding_logistic_regression": "Logistic Regression (Embeddings)",
+    "embedding_svm": "SVM (Embeddings)"
+  },
+  "model_types": {
+    "tfidf_logistic_regression": "Baseline",
+    "tfidf_svm": "Baseline",
+    "embedding_logistic_regression": "Embedding",
+    "embedding_svm": "Embedding"
+  },
+  "best_model_key": "embedding_svm",
+  "best_model": "SVM (Embeddings)",
+  "best_model_type": "Embedding",
+  "training_rows": 18130,
+  "tfidf_max_features": 5000,
+  "ngram_range": [
+    1,
+    2
+  ],
+  "embedding_model_name": "paraphrase-multilingual-MiniLM-L12-v2",
+  "official_test_has_gold_labels": false,
+  "evaluation_note": "Official Test.txt has no gold labels in the provided files; metrics use a stratified holdout from the labeled train+validation pool."
+}

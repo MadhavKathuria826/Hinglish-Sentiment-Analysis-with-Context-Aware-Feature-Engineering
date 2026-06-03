@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+env/
+
+data/processed/
+models/embeddings_cache/
+models/embedding_model/
+models/*.safetensors
+outputs/
+
+*.log
+.DS_Store
